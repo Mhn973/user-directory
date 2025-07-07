@@ -13,12 +13,12 @@ setTimeout(()=>{
   }
     return (
       <>
-        <div className="flex flex-col justify-center align-center rounded-md border-solid border-grey-500 border-2 p-2 w-full max-w-xs">
-          <span className="text-center ">{data.name}</span>
-          <span className="text-center">{data.email}</span>
-          <span className="text-center">{data.company.name}</span>
+        <div className="flex flex-col justify-items-center items-center rounded-md border border-solid border-black border-opacity-75 p-2 w-full max-w-xs bg-gray-300">
+          <span className=" ">{data.name}</span>
+          <span className="">{data.email}</span>
+          <span className="">{data.company.name}</span>
           <button
-            className="bg-blue-300 hover:bg-slate-400 hover:cursor-pointer rounded w-100 justify-self-center"
+            className="bg-blue-300 hover:bg-slate-400 hover:cursor-pointer rounded-lg w-max p-1"
             onClick={showDetails}
           >
             View Details
